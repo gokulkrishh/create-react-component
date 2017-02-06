@@ -110,19 +110,24 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var HelloWorld = function (_Component) {
   _inherits(HelloWorld, _Component);
 
-  function HelloWorld() {
+  function HelloWorld(props) {
     _classCallCheck(this, HelloWorld);
 
-    return _possibleConstructorReturn(this, (HelloWorld.__proto__ || Object.getPrototypeOf(HelloWorld)).apply(this, arguments));
+    var _this = _possibleConstructorReturn(this, (HelloWorld.__proto__ || Object.getPrototypeOf(HelloWorld)).call(this, props));
+
+    _this.state = {};
+    return _this;
   }
 
   _createClass(HelloWorld, [{
-    key: 'render',
+    key: "render",
     value: function render() {
+      var title = this.props.title;
+
       return _react2.default.createElement(
-        'h1',
+        "h1",
         null,
-        'Hello World'
+        title
       );
     }
   }]);
@@ -130,7 +135,18 @@ var HelloWorld = function (_Component) {
   return HelloWorld;
 }(_react.Component);
 
+// Proptypes
+
+
 exports.default = HelloWorld;
+HelloWorld.propTypes = {
+  title: _react2.default.PropTypes.string.isRequired
+};
+
+// Default proptypes
+HelloWorld.defaultProps = {
+  title: "Hello"
+};
 
 /***/ })
 /******/ ]);

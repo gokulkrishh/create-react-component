@@ -4,7 +4,7 @@ import HelloWorld from '../dist/index';
 
 class App extends React.Component { 
 	render() {
-		return <HelloWorld />;
+		return <HelloWorld title="Hello World"/>;
 	}
 }
 

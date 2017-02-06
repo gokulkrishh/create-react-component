@@ -12,7 +12,7 @@
 git clone https://github.com/gokulkrishh/react-component-boilerplate && cd react-component-boilerplate
 ```
 
-##### 2. Make it as your own repo
+##### 2. Make it as your own repository
 
 ```bash 
 rm -rf .git && git init
@@ -30,13 +30,13 @@ npm install
 yarn install
 ```
 
-### Make your own component
+### Make it as your own component
 
 - In `package.json` file change the `react-component-boilerplate` to `your component name`.
 
 - Search for `HelloWorld` and replace it with `your component name`.
 
-### Available Scripts
+### Available scripts
 
 #### 1. `npm run start`  - To start webpack dev-server.
 
@@ -46,13 +46,16 @@ yarn install
 
 #### 4. `npm run deploy` - To deploy the demo folder to gh-pages.
 
-## TODO
+#### 5. `npm run test`   - To run test cases.
 
-- [ ] Basic test case.
+### TODO
 
-- [ ] Command to publish the component to npm repository.
+- [x] - CSS support 
 
-- [ ] CSS support 
+- [x] - Basic test case using jest.
+
+- [ ] - Script to publish the component to npm repository.
+
 
 ## License
 

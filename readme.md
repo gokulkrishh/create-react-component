@@ -4,7 +4,7 @@
 
 ### [Demo](https://gokulkrishh.github.io/react-component-boilerplate/)
 
-## Get started
+### Get started
 
 ##### 1. Clone the repository
 
@@ -36,7 +36,7 @@ yarn install
 
 - Search for `HelloWorld` and replace it with `your component name`.
 
-### Available scripts
+#### Available scripts
 
 #### 1. `npm run start`  - To start webpack dev-server.
 
@@ -48,9 +48,11 @@ yarn install
 
 #### 5. `npm run test`   - To run test cases.
 
-### Publish your react component
+
+#### Publish your react component
 
 #### `npm publish` 			 - To publish it to the npm respository.
+
 
 ##### Found a bug or an improvement. File an issue and PR's are most welcome :)
 

@@ -1,4 +1,4 @@
-# [React Component Boilerplate](https://gokulkrishh.github.io/react-component-boilerplate/)[![Build Status](https://travis-ci.org/gokulkrishh/react-component-boilerplate.svg?branch=master)](https://travis-ci.org/gokulkrishh/react-component-boilerplate)
+# [React Component Boilerplate](https://gokulkrishh.github.io/react-component-boilerplate/) [![Build Status](https://travis-ci.org/gokulkrishh/react-component-boilerplate.svg?branch=master)](https://travis-ci.org/gokulkrishh/react-component-boilerplate)
 
 *A simple react component boilerplate using webpack v2*
 

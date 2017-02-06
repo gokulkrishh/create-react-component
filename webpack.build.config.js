@@ -4,7 +4,7 @@ module.exports = {
     path: __dirname + '/dist',    
     filename: 'index.js',
     libraryTarget: 'umd',
-    library: 'HelloWorld'
+    library: 'HelloWorld' // Replace HelloWorld
   },
 	module: {
 	  rules: [

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+// Replace HelloWorld
 export default class HelloWorld extends Component {
   render() {
     return (

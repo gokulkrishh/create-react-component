@@ -1,22 +1,22 @@
 # React Component Boilerplate
 
-> A simple react component boilerplate using webpack v2
+*A simple react component boilerplate using webpack v2*
 
 ## Get started
 
-1. Clone the repository
+##### 1. Clone the repository
 
-```bash 
+```bash
 git clone https://github.com/gokulkrishh/react-component-boilerplate && cd react-component-boilerplate
 ```
 
-2. Make it your own repo
+##### 2. Make it as your own repo
 
 ```bash 
 rm -rf .git && git init
 ```
 
-3. Install dependencies via npm
+##### 3. Install dependencies
 
 ```bash
 npm install
@@ -28,21 +28,21 @@ npm install
 yarn install
 ```
 
-## Make your own component
+### Make your own component
 
-- In `package.json` file change the `name` to `your component name`.
+- In `package.json` file change the `react-component-boilerplate` to `your component name`.
 
 - Search for `HelloWorld` and replace it with `your component name`.
 
-## Available Scripts
+### Available Scripts
 
-#### `npm run start`  - To start webpack dev-server.
+#### 1. `npm run start`  - To start webpack dev-server.
 
-#### `npm run watch`  - To watch a file change and build the component.
+#### 2. `npm run watch`  - To watch a file change and build the component.
 
-#### `npm run build`  - To produce the build file.
+#### 3. `npm run build`  - To produce the build file.
 
-#### `npm run deploy` - To deploy the demo folder to gh-pages.
+#### 4. `npm run deploy` - To deploy the demo folder to gh-pages.
 
 ## TODO
 

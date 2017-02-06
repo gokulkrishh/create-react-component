@@ -48,6 +48,7 @@ yarn install
 
 - [ ] - basic test case.
 - [ ] - command to publish the component to npm repository.
+- [ ] - CSS support 
 
 ## License
 

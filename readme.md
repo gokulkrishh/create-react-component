@@ -48,9 +48,11 @@ yarn install
 
 ## TODO
 
-- [ ] - basic test case.
-- [ ] - command to publish the component to npm repository.
-- [ ] - CSS support 
+- [ ] Basic test case.
+
+- [ ] Command to publish the component to npm repository.
+
+- [ ] CSS support 
 
 ## License
 

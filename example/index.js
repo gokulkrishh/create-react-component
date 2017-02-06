@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from '../dist/index'; // Replace HelloWorld
+import HelloWorld from '../dist/index';
 
 class App extends React.Component { 
 	render() {
-		return <HelloWorld />; // Replace HelloWorld
+		return <HelloWorld />;
 	}
 }
 

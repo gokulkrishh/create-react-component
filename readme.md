@@ -30,7 +30,7 @@ yarn install
 
 ## Change name of the component
 
-- Search for this comment `// Replace HelloWorld` and replace `HelloWorld` component with your component name.
+- Search for `HelloWorld` and replace it with your component name.
 
 ## Usage
 

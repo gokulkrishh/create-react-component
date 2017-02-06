@@ -1,0 +1,27 @@
+{
+  "name": "react-component-boilerplate",
+  "version": "1.0.0",
+  "description": "A react component boilerplate",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "scripts": {
+    "server": "./node_modules/.bin/webpack-dev-server",
+    "watch": "./node_modules/.bin/webpack --config=webpack.build.config.js --watch",
+    "start": "npm run server && npm run watch",
+    "build": "./node_modules/.bin/webpack -p --config=webpack.build.config.js"
+  },
+  "peerDependencies": {
+    "react-dom": "^15.4.2"
+  },
+  "repository": "https://github.com/gokulkrishh/react-component-boilerplate",
+  "author": "Gokulakrishnan Kalaikovan",
+  "license": "MIT"
+}

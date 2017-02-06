@@ -1,13 +1,13 @@
 module.exports = { 
-	entry: './example/index.js',
+	entry: './demo/index.js',
 	output: {
-    path: __dirname + '/example',
+    path: __dirname + '/demo',
     filename: 'bundle.js'
   },
   devServer: {
   	open: false,
   	watchContentBase: true,
-  	contentBase: __dirname + '/example',
+  	contentBase: __dirname + '/demo',
 	},
 	resolve: {
     extensions: ['.js']
@@ -16,7 +16,7 @@ module.exports = {
 	  rules: [
 	    {
 	      test: /\.js$/,
-	      include: [/example/, /dist/],
+	      include: [/demo/, /dist/],
       	exclude: /node_modules/,
 	      use: [{
 	      	loader: 'babel-loader',

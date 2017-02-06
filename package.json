@@ -15,8 +15,9 @@
   "scripts": {
     "server": "./node_modules/.bin/webpack-dev-server",
     "watch": "./node_modules/.bin/webpack --config=webpack.build.config.js --watch",
+    "build": "./node_modules/.bin/webpack --config=webpack.build.config.js -p",
     "start": "npm run server && npm run watch",
-    "build": "./node_modules/.bin/webpack -p --config=webpack.build.config.js"
+    "deploy-demo": "git subtree push --prefix demo origin gh-pages"
   },
   "peerDependencies": {
     "react-dom": "^15.4.2"

@@ -48,11 +48,9 @@ yarn install
 
 #### 5. `npm run test`   - To run test cases.
 
-#### Publish your react component
+### Publish your react component
 
-*Using below command to publish it to npm respository.*
-
-#### `npm publish`
+#### `npm publish` 			 - To publish it to the npm respository.
 
 ##### Found a bug or an improvement. File an issue and PR's are most welcome :)
 

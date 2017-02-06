@@ -28,22 +28,26 @@ npm install
 yarn install
 ```
 
-## Change name of the component
+## Make your own component
 
-- Search for `HelloWorld` and replace it with your component name.
+- In `package.json` file change the `name` to `your component name`.
+
+- Search for `HelloWorld` and replace it with `your component name`.
 
 ## Usage
 
-### `npm run start` - To start webpack dev-server.
+### `npm run start`  - To start webpack dev-server.
 
-### `npm run build` - To produce the build file.
+### `npm run watch`  - To watch a file change and build the component.
+
+### `npm run build`  - To produce the build file.
+
+### `npm run deploy` - To deploy the demo folder to gh-pages.
 
 ## TODO
 
-- [ ] - Setup an demo page.
-- [ ] - npm script command to publish this react-component.
-
-
+- [ ] - basic test case.
+- [ ] - command to publish the component to npm repository.
 
 ## License
 

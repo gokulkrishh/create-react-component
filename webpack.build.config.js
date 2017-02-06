@@ -1,5 +1,8 @@
 module.exports = { 
-	entry: './src/index.js',
+	context: __dirname + '/src',
+	entry: {
+		app: './index.js'
+	},
 	output: {
     path: __dirname + '/dist',    
     filename: 'index.js',
@@ -10,7 +13,7 @@ module.exports = {
 	  rules: [
 	    {
 	      test: /\.js$/,
-	      include: /src/,
+	      include: [/src/],
         exclude: /node_modules/,
 	      use: [{
 	      	loader: 'babel-loader',

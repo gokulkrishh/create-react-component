@@ -1,12 +1,15 @@
 module.exports = { 
-	entry: './demo/index.js',
+	context: __dirname + '/demo',
+	entry: {
+		app: './index.js'
+	},
 	output: {
     path: __dirname + '/demo',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/',
   },
   devServer: {
-  	open: false,
-  	watchContentBase: true,
+  	open: true,
   	contentBase: __dirname + '/demo',
 	},
 	resolve: {

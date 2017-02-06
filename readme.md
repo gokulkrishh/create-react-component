@@ -38,20 +38,20 @@ yarn install
 
 #### Available scripts
 
-#### 1. `npm run start`  - To start webpack dev-server.
+##### 1. `npm run start`  - To start webpack dev-server.
 
-#### 2. `npm run watch`  - To watch a file change and build the component.
+##### 2. `npm run watch`  - To watch a file change and build the component.
 
-#### 3. `npm run build`  - To produce the build file.
+##### 3. `npm run build`  - To produce the build file.
 
-#### 4. `npm run deploy` - To deploy the demo folder to gh-pages.
+##### 4. `npm run deploy` - To deploy the demo folder to gh-pages.
 
-#### 5. `npm run test`   - To run test cases.
+##### 5. `npm run test`   - To run test cases.
 
 
 #### Publish your react component
 
-#### `npm publish` 			 - To publish it to the npm respository.
+##### `npm publish` 			 - To publish it to the npm respository.
 
 
 ##### Found a bug or an improvement. File an issue and PR's are most welcome :)

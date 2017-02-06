@@ -48,14 +48,11 @@ yarn install
 
 #### 5. `npm run test`   - To run test cases.
 
-### TODO
+### Publish your react component to NPM repository
 
-- [x] - Basic test case using jest.
+#### `npm publish`
 
-- [x] - Fix the CSS issue with jest.
-
-- [ ] - Script to publish the component to npm repository.
-
+##### Found a bug or an improvement. File an issue and PR's are most welcome :)
 
 ## License
 

@@ -2,7 +2,7 @@
   "name": "react-component-boilerplate",
   "version": "1.0.0",
   "description": "A simple react component boilerplate using webpack v2",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
@@ -24,7 +24,8 @@
     "pre-deploy": "./node_modules/.bin/webpack --config=webpack.config.js",
     "deploy": "npm run pre-deploy && git subtree push --prefix demo origin gh-pages",
     "start": "npm run build && npm run server",
-    "test": "jest"
+    "test": "jest",
+    "test-coverage": "yarn run jest -- --coverage"
   },
   "jest": {
     "unmockedModulePathPatterns": [

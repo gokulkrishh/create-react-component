@@ -15,7 +15,7 @@
   "scripts": {
     "server": "./node_modules/.bin/webpack-dev-server --hot --inline",
     "watch": "./node_modules/.bin/webpack --watch --config=webpack.build.config.js",
-    "build": "./node_modules/.bin/webpack --config=webpack.build.config.js -p",
+    "build": "./node_modules/.bin/webpack --config=webpack.build.config.js",
     "start": "npm run server",
     "deploy": "git subtree push --prefix demo origin gh-pages"
   },

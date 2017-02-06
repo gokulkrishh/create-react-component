@@ -2,7 +2,7 @@
 
 > A simple react component boilerplate using webpack v2
 
-# Getting started
+## Get started
 
 1. Clone the repository
 
@@ -34,7 +34,7 @@ yarn install
 
 - Search for `HelloWorld` and replace it with `your component name`.
 
-## Usage
+## Available Scripts
 
 #### `npm run start`  - To start webpack dev-server.
 

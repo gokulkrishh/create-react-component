@@ -1,6 +1,8 @@
-# React Component Boilerplate
+# [React Component Boilerplate](https://gokulkrishh.github.io/react-component-boilerplate/)
 
 *A simple react component boilerplate using webpack v2*
+
+### [Demo](https://gokulkrishh.github.io/react-component-boilerplate/)
 
 ## Get started
 

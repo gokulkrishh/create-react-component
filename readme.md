@@ -52,7 +52,7 @@ yarn install
 
 - [x] - Basic test case using jest.
 
-- [ ] - Fix the CSS issue with jest.
+- [x] - Fix the CSS issue with jest.
 
 - [ ] - Script to publish the component to npm repository.
 

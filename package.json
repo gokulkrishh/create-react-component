@@ -17,6 +17,7 @@
     "watch": "./node_modules/.bin/webpack --watch --config=webpack.build.config.js",
     "build": "./node_modules/.bin/webpack --config=webpack.build.config.js",
     "start": "npm run server",
+    "predeploy": "./node_modules/.bin/webpack --config=webpack.config.js",
     "deploy": "git subtree push --prefix demo origin gh-pages"
   },
   "peerDependencies": {

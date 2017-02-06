@@ -36,13 +36,13 @@ yarn install
 
 ## Usage
 
-### `npm run start`  - To start webpack dev-server.
+#### `npm run start`  - To start webpack dev-server.
 
-### `npm run watch`  - To watch a file change and build the component.
+#### `npm run watch`  - To watch a file change and build the component.
 
-### `npm run build`  - To produce the build file.
+#### `npm run build`  - To produce the build file.
 
-### `npm run deploy` - To deploy the demo folder to gh-pages.
+#### `npm run deploy` - To deploy the demo folder to gh-pages.
 
 ## TODO
 

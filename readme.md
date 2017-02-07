@@ -36,7 +36,7 @@ yarn install
 
 - Search for `HelloWorld` and replace it with `your component name`.
 
-#### Available scripts
+### Available scripts
 
 ##### 1. `npm run start`  - To start webpack dev-server.
 
@@ -49,16 +49,16 @@ yarn install
 ##### 5. `npm run test`   - To run test cases.
 
 
-#### Publish your react component
+### Publish
 
-##### `npm publish` 			 - To publish it to the npm respository.
+##### 1. `npm publish`    - To publish it to the npm respository.
 
 #### TODO 
 
 - [ ] - cli similar to create-react-app
 
 
-##### Found a bug or an improvement. File an issue and PR's are most welcome :)
+*Found a bug or an improvement. File an issue and PR's are most welcome :)*
 
 ## License
 

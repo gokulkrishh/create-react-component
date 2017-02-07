@@ -1,15 +1,15 @@
-# [Create React Component](https://gokulkrishh.github.io/react-component-boilerplate/) [![Build Status](https://travis-ci.org/gokulkrishh/react-component-boilerplate.svg?branch=master)](https://travis-ci.org/gokulkrishh/react-component-boilerplate)
+# [Create React Component](https://gokulkrishh.github.io/create-react-component/) [![Build Status](https://travis-ci.org/gokulkrishh/create-react-component.svg?branch=master)](https://travis-ci.org/gokulkrishh/create-react-component)
 
 *A simple react component boilerplate using webpack v2*
 
-### [Demo](https://gokulkrishh.github.io/react-component-boilerplate/)
+### [Demo](https://gokulkrishh.github.io/create-react-component/)
 
 ### Get started
 
 ##### 1. Clone the repository
 
 ```bash
-git clone https://github.com/gokulkrishh/react-component-boilerplate && cd react-component-boilerplate
+git clone https://github.com/gokulkrishh/create-react-component && cd create-react-component
 ```
 
 ##### 2. Make it as your own repository

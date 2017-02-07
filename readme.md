@@ -53,6 +53,10 @@ yarn install
 
 ##### `npm publish` 			 - To publish it to the npm respository.
 
+#### TODO 
+
+- [ ] - cli similar to create-react-app
+
 
 ##### Found a bug or an improvement. File an issue and PR's are most welcome :)
 

@@ -72,7 +72,9 @@ yarn install
 
 ### Publish as node module
 
-##### `npm publish`
+```bash 
+npm publish
+```
 
 #### TODO 
 

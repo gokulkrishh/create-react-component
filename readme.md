@@ -34,10 +34,10 @@ yarn install
 
 ```
 .
-├── __test__
-├── dist
-├── demo
-├── src
+├── __test__/
+├── dist/
+├── demo/
+├── src/
 │   └── index.js
 │   └── styles.css
 └── package.json
@@ -79,7 +79,6 @@ npm publish
 #### TODO 
 
 - [ ] - cli similar to create-react-app
-
 
 *Found a bug or an improvement. File an issue and PR's are most welcome :)*
 

@@ -1,6 +1,6 @@
 # [Create React Component](https://gokulkrishh.github.io/create-react-component/) [![Build Status](https://travis-ci.org/gokulkrishh/create-react-component.svg?branch=master)](https://travis-ci.org/gokulkrishh/create-react-component)
 
-*A simple react component boilerplate using webpack v2*
+*A simple react component boilerplate using webpack 2*
 
 ### [Demo](https://gokulkrishh.github.io/create-react-component/)
 

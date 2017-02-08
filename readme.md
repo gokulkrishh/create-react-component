@@ -41,8 +41,8 @@ yarn install
 │   └── index.js
 │   └── styles.css
 └── package.json
-└── webpack.build.config.json
-└── webpack.config.json
+└── webpack.build.config.js
+└── webpack.config.js
 ```
 
 ### Build Tools

@@ -53,7 +53,7 @@ yarn install
 
 ### Make it as your own component
 
-- In `package.json` file change the `react-component-boilerplate` to `your component name`.
+- In `package.json` file change the name from `create-react-component` to `your-component-name`.
 
 - Search for `HelloWorld` and replace it with `your component name`.
 

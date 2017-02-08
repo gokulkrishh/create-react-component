@@ -30,6 +30,27 @@ npm install
 yarn install
 ```
 
+### Folder Structure
+
+```
+.
+├── __test__
+├── dist
+├── demo
+├── src
+│   └── index.js
+│   └── styles.css
+└── package.json
+└── webpack.build.config.json
+└── webpack.config.json
+```
+
+### Build Tools
+
+##### 1. [`Webpack(v2)`](https://webpack.js.org/) - bundling our dependencies
+
+##### 2. [`Jest`](https://facebook.github.io/jest/docs/tutorial-react.html)        - for component testcases
+
 ### Make it as your own component
 
 - In `package.json` file change the `react-component-boilerplate` to `your component name`.
@@ -49,9 +70,9 @@ yarn install
 ##### 5. `npm run test`   - To run test cases.
 
 
-### Publish
+### Publish as node module
 
-##### 1. `npm publish`    - To publish it to the npm respository.
+##### `npm publish`
 
 #### TODO 
 

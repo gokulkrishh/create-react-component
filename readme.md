@@ -61,11 +61,11 @@ yarn install
 
 ### Make it as your own component
 
-- In `package.json` file change the name from `create-react-component` to `your-component-name`.
+- In [`package.json`](https://github.com/gokulkrishh/create-react-component/blob/master/package.json) file change the name from `create-react-component` to `your-component-name`.
 
 - Search for `HelloWorld` and replace it with `your component name`.
 
-### Available scripts
+### [Available scripts](https://github.com/gokulkrishh/create-react-component/blob/master/package.json#L28)
 
 ##### 1. `npm run start`  - To start webpack dev-server.
 

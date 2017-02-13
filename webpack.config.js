@@ -9,7 +9,7 @@ module.exports = {
     publicPath: '/',
   },
   devServer: {
-  	open: true,
+  	open: false,
   	contentBase: __dirname + '/demo',
 	},
 	resolve: {
@@ -21,10 +21,18 @@ module.exports = {
 	      test: /\.js$/,
 	      include: [/demo/, /dist/],
       	exclude: /node_modules/,
+        enforce: 'pre',
 	      use: [{
 	      	loader: 'babel-loader',
           options: { presets: ['es2015', 'react'] }
-      	}]
+      	},
+        {
+          loader: 'eslint-loader', 
+          options: { 
+            configFile: __dirname + '/.eslintrc',
+            useEslintrc: false
+          }
+        }]
 	    },
 	    {
 		    test: /\.css$/,

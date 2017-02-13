@@ -45,6 +45,18 @@ yarn install
 └── webpack.config.js
 ```
 
+### Features
+
+1. Supports `ES6 syntax` for the component.
+
+2. `ESLint` support.
+
+3. `Jest` for test cases.
+
+4. Supports `Travis CI`.
+
+5. Deploy demo page to `gh-pages`.
+
 ### Build Tools
 
 ##### 1. [`Webpack(v2)`](https://webpack.js.org/) - bundling our dependencies

@@ -47,17 +47,17 @@ yarn install
 
 ### Features
 
-1. [`Webpack(v2)`](https://webpack.js.org/) for bundling the dependencies.
+- [`Webpack(v2)`](https://webpack.js.org/) for bundling the dependencies.
 
-2. Supports `ES6 syntax` for the component.
+- Supports `ES6 syntax` for the component.
 
-3. `ESLint` support.
+- `ESLint` support.
 
-4. [`Jest`](https://facebook.github.io/jest/docs/tutorial-react.html) for test cases.
+- [`Jest`](https://facebook.github.io/jest/docs/tutorial-react.html) for test cases.
 
-5. Supports `Travis CI`.
+- Supports `Travis CI`.
 
-6. Deploy demo page to `gh-pages`.
+- Deploy demo page to `gh-pages`.
 
 ### Make it as your own component
 

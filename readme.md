@@ -1,10 +1,10 @@
 # [Create React Component](https://gokulkrishh.github.io/create-react-component/) [![Build Status](https://travis-ci.org/gokulkrishh/create-react-component.svg?branch=master)](https://travis-ci.org/gokulkrishh/create-react-component)
 
-*A simple react component boilerplate using webpack 2*
+*A simple react component boilerplate using webpack v2*
 
 ### [Demo](https://gokulkrishh.github.io/create-react-component/)
 
-### Get started
+### Get Started
 
 ##### 1. Clone the repository
 
@@ -47,15 +47,15 @@ yarn install
 
 ### Features
 
-- [`Webpack(v2)`](https://webpack.js.org/) for bundling the dependencies.
+- [`Webpack v2`](https://webpack.js.org/) for bundling the dependencies.
 
-- Supports `ES6 syntax` for the component.
+- `ES6` support.
 
 - `ESLint` support.
 
 - [`Jest`](https://facebook.github.io/jest/docs/tutorial-react.html) for test cases.
 
-- Supports `Travis CI`.
+- `Travis CI` support.
 
 - Deploy demo page to `gh-pages`.
 
@@ -67,22 +67,24 @@ yarn install
 
 ### [Available scripts](https://github.com/gokulkrishh/create-react-component/blob/master/package.json#L28)
 
-##### 1. `npm run start`  - To start webpack dev-server.
+- `npm run start`  - To start webpack dev-server.
 
-##### 2. `npm run watch`  - To watch a file change and build the component.
+- `npm run watch`  - To watch a file change and build the component.
 
-##### 3. `npm run build`  - To produce the build file.
+- `npm run build`  - To produce the build file.
 
-##### 4. `npm run deploy` - To deploy the demo folder to gh-pages.
+- `npm run deploy` - To deploy the demo folder to gh-pages.
 
-##### 5. `npm run test`   - To run test cases.
+- `npm run test`   - To run test cases.
 
 
-### Publish as node module
+### [Publish as node module](https://docs.npmjs.com/getting-started/creating-node-modules)
 
 ```bash 
 npm publish
 ```
+
+*Make sure your package name, version and other information in `package.json` is correct.*
 
 #### TODO 
 

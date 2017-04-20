@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import './styles.css';
 
-export default class HelloWorld extends Component {
+export default class HelloWorld extends React.Component {
 	constructor(props) {
     super(props);
     this.state = {};
@@ -17,7 +18,7 @@ export default class HelloWorld extends Component {
 
 // Proptypes
 HelloWorld.propTypes = {
-  title: React.PropTypes.string.isRequired
+  title: PropTypes.string.isRequired
 };
 
 // Default proptypes
